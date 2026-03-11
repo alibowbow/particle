@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="text-xs uppercase tracking-[0.32em] text-plasma">404</div>
       <h1 className="mt-4 text-4xl font-medium text-white">Scene not found</h1>
       <p className="mt-3 max-w-lg text-sm leading-7 text-mist">
-        ?? ??? ????. ?? ????? ???? ?? ?????.
+        The experiment you are looking for is not here. Jump back to the lab and open a different scene.
       </p>
       <div className="mt-8 flex gap-3">
         <Link href="/"><Button variant="solid">Go Home</Button></Link>
@@ -17,4 +17,3 @@ export default function NotFound() {
     </div>
   )
 }
-

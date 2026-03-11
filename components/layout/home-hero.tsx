@@ -44,7 +44,7 @@ export function HomeHero() {
               Touch the effect. Remix the scene. Learn the motion.
             </h1>
             <p className="max-w-xl text-base leading-7 text-mist sm:text-lg">
-              SCENE FORGE? ??? ???? ???? ???, ????? ?? ??? ?? ??? ????? ????? ? ?????.
+              Scene Forge is not a gallery for passively watching finished work. It is a web lab where parameters and code fragments can be pushed, remixed, and learned through direct interaction.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -124,4 +124,3 @@ export function HomeHero() {
     </section>
   )
 }
-

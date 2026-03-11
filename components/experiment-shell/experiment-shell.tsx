@@ -94,7 +94,7 @@ export function ExperimentShell({ definition }: { definition: ExperimentDefiniti
                 <div className="text-sm uppercase tracking-[0.32em] text-plasma">Fallback Mode</div>
                 <h2 className="mt-4 text-3xl font-medium text-white">WebGL unavailable</h2>
                 <p className="mt-3 max-w-md text-sm leading-6 text-mist">
-                  ?? ????? ??? ???? ??? ? ?? ????? ?? ?? ???? ?????. ?? ??? ??? ??? ??? ??? ? ????.
+                  This environment cannot render the realtime canvas, so the page falls back to parameter and code controls. Presets, links, and learning content still remain available.
                 </p>
               </div>
             )}
@@ -158,4 +158,3 @@ export function ExperimentShell({ definition }: { definition: ExperimentDefiniti
     </div>
   )
 }
-

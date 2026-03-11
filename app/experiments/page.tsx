@@ -7,8 +7,8 @@ export default function ExperimentsPage() {
     <>
       <PageIntro
         eyebrow="Experiments"
-        title="???, ???, ????? ?? ???"
-        description="? ??? ?? ? ??? ????. ?? ???? ????, Reset/Randomize, ???, ??? ??, Code Mode? ?????? ?? ?? ?? ??? ???."
+        title="A playable library of interactive visual systems"
+        description="Each experiment runs inside the same reusable shell. Parameters, presets, camera composition, Reset, Randomize, Share, and Code Mode stay consistent while each scene keeps its own visual language."
       />
       <section className="page-shell pb-20 pt-10">
         <div className="grid gap-5 lg:grid-cols-2 xl:grid-cols-3">
@@ -20,4 +20,3 @@ export default function ExperimentsPage() {
     </>
   )
 }
-

@@ -7,8 +7,8 @@ export default function GalleryPage() {
     <>
       <PageIntro
         eyebrow="Remix Gallery"
-        title="?? preset ???? ???? ??? ???"
-        description="?? ??? DB? ???, ???? ?? ?? ??? ?? ???? ??. ??? ?? ??? ??, ?????, ?? ??? ??? ? ??."
+        title="A mock gallery built from presets, ready for remixing"
+        description="There is no user database yet, but the preset and share-link workflow is already in place. Open a result, remix it, and copy the link back out with a single action."
       />
       <section className="page-shell pb-20 pt-10">
         <div className="grid gap-5 lg:grid-cols-2 xl:grid-cols-3">
@@ -20,4 +20,3 @@ export default function GalleryPage() {
     </>
   )
 }
-

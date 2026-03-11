@@ -30,7 +30,7 @@ export function CodeModePanel({
         <div className="text-xs uppercase tracking-[0.24em] text-mist">JSON</div>
       </div>
       <p className="mt-3 text-sm leading-6 text-mist">
-        ??? ?? ???? JSON? ?? ???? ???. ??? ?? ?? ?? ???? ??? ? ?? ???? ??.
+        For now, Code Mode focuses on direct JSON editing for the core parameters. The structure is separated so a richer editor can be introduced later without rebuilding the experiment shell.
       </p>
       <textarea
         className="mt-4 min-h-[300px] w-full rounded-[24px] border border-white/10 bg-black/30 p-4 font-mono text-sm leading-6 text-white outline-none transition focus:border-white/20"
@@ -47,7 +47,7 @@ export function CodeModePanel({
               onApply(parsed)
               setError('')
             } catch {
-              setError('JSON ??? ???? ????.')
+              setError('The JSON format is invalid.')
             }
           }}
         >
@@ -61,4 +61,3 @@ export function CodeModePanel({
     </Panel>
   )
 }
-

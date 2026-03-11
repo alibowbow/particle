@@ -13,8 +13,8 @@ export default function HomePage() {
       <PageIntro
         className="pb-4 pt-20"
         eyebrow="Why it feels different"
-        title="? ?? ??? ????, ???, ?? ?? ?? UX"
-        description="?? ??? ?? ??? ???? ????, ??? ???, ?? ?? ??? ???? ??? ??? ???? ???? ??? ???? ?????."
+        title="A hands-on experiment UX inside a single cinematic surface"
+        description="Scene Forge borrows the immediate parameter response, camera presets, and mode-switching energy of the reference, then rebuilds it as a premium digital playground focused on play, remixing, and learning."
         actions={
           <>
             <Link href="/experiments"><Button variant="solid">Browse Experiments</Button></Link>
@@ -32,4 +32,3 @@ export default function HomePage() {
     </>
   )
 }
-
